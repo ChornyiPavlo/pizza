@@ -128,7 +128,9 @@ h1 {
   padding: 60px 0;
   background-color: #fff;
 }
-
+.pizza-catalog.tar {
+  padding: 160px 0;
+}
 .pizza-grid {
   display: flex;
   flex-wrap: wrap;
@@ -183,6 +185,9 @@ h1 {
 @media (max-width: 768px) {
   .pizza-item {
     flex: 1 1 calc(50% - 20px); /* Два товара в ряд на планшетах */
+  }
+  .pizza-catalog.tar {
+    padding: 30px 0;
   }
 }
 
@@ -545,4 +550,8 @@ nav ul li:hover a{
   color: #FF4500;
   background-color: #111;
   border-color: #FF4500;
+}
+.pizza-item .tariff {
+  font-size: 32px;
+  color: #FF4500;
 }
