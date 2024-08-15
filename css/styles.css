@@ -131,6 +131,9 @@ h1 {
 .pizza-catalog.tar {
   padding: 160px 0;
 }
+.tar h1 {
+  color: #111;
+}
 .pizza-grid {
   display: flex;
   flex-wrap: wrap;
